@@ -1,0 +1,27 @@
+.social-button-list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social-button-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: $third-color;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.site-nav__ico {
+  width: 20px;
+  height: 20px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  fill: $second-font-color;
+  &:hover {
+    fill: $hover-color;
+  }
+}

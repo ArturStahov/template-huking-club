@@ -1,0 +1,22 @@
+.page-sections-world {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.page-sections-world__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-sections-world__text-block {
+  width: 582px;
+}
+
+.page-sections-world__tittle {
+  @include font-settings(2.875rem, 1.2, 700, $first-font-color);
+  margin-bottom: 38px;
+}
+.page-sections-world__text {
+  @include font-settings(1.3125rem, 1, 400, $first-font-color);
+  margin-bottom: 30px;
+}

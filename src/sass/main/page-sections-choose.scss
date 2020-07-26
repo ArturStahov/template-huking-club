@@ -1,0 +1,29 @@
+.page-sections-choose {
+  padding-top: 40px;
+  padding-bottom: 140px;
+}
+
+.page-sections-choose__content-block {
+  width: 466px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.page-sections-choose__title {
+  width: 466px;
+  position: absolute;
+  left: 0px;
+  top: -206px;
+  @include font-settings(3.375rem, 1.2, 700, $first-font-color);
+  &--sub {
+    display: block;
+    @include font-settings(2.6042rem, 1.2, 700, $third-font-color);
+    text-transform: uppercase;
+  }
+}
+.page-sections-choose__text {
+  @include font-settings(1.3125rem, 1.6, 400, $some-text-color);
+  margin-bottom: 166px;
+}

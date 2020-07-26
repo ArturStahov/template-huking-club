@@ -1,0 +1,69 @@
+.page-header {
+  padding-top: 35px;
+  padding-bottom: 470px;
+  position: relative;
+}
+.header__bg {
+  background-image: url(../images/header/header-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -150px;
+
+  // @media (min-resolution: 192dpi) {
+  //   background-image: url(../images/header/mobile/bg-m@2x.png);
+  // }
+
+  // @media (min-width: $tablet-bp-min) {
+  //   background-image: url(../images/header/tablet/bg-t.png);
+  // }
+
+  // @media (min-width: $tablet-bp-min) and (min-resolution: 192dpi) {
+  //   background-image: url(../images/header/tablet/bg-t@2x.png);
+  // }
+
+  // @media (min-width: $desktop-bp-min) {
+  //   background-image: url(../images/header/desctop_1280/bg-d.png);
+  // }
+
+  // @media (min-width: $desktop-bp-min) and (min-resolution: 192dpi) {
+  //   background-image: url(../images/header/desctop_1280/bg-d@2x.png);
+  // }
+}
+
+.page-header-tittle {
+  @include font-settings(4rem, 1.2, 800, $first-font-color);
+  text-transform: uppercase;
+}
+.page-header-tittle__sub-tittle {
+  @include font-settings(2.5rem, 1.2, 700, $first-font-color);
+  display: block;
+
+  letter-spacing: -3.7px;
+}
+
+.page-header-content-block {
+  position: relative;
+}
+.page-header-decor__blue-butterfly {
+  position: absolute;
+  left: -41px;
+  top: 68px;
+}
+.page-header-decor__yellow-butterfly {
+  position: absolute;
+  left: 442px;
+  top: -32px;
+}
+.page-header-content {
+  @include font-settings(1.3rem, 1.4, 700, $first-font-color);
+  text-transform: uppercase;
+  width: 449px;
+  margin-bottom: 25px;
+}
+
+.page-header-image {
+  position: absolute;
+  right: 0px;
+  top: 110px;
+}

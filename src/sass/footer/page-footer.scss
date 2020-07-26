@@ -1,0 +1,38 @@
+.page-footer {
+  padding-top: 40px;
+  padding-bottom: 52px;
+}
+.page-footer-block {
+  padding: 52px;
+
+  background-color: $second-background-color;
+}
+
+.footer-nav {
+  margin-bottom: 50px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.telefon-block {
+  width: 250px;
+}
+.telefon-text {
+  @include font-settings(1.375rem, 1.2, 800, $second-font-color);
+  text-transform: uppercase;
+  background-color: $third-color;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.telefon {
+  @include font-settings(2rem, 1.2, 800, $second-font-color);
+  display: inline-block;
+  background-color: $third-color;
+}
+.copirait-text {
+  @include font-settings(1, 1.2, 400, $first-font-color);
+}
